@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Корзина</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="nav">
+                    <img src="./img/logo.png" alt="logo">
+                    <ul class="menu">
+                        <li>
+                            <a href="./index.html">
+                                Main
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="products.php">
+                                Products
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="#">
+                                Members
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contacts
+                            </a> 
+                        </li>
+                        <li>
+                            <a href="./cart.html">
+                                Cart
+                            </a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper_cart">
+        <table width="100%" border="0" style="padding-bottom: 50px;" >
+            <tr class="cart-tr">
+                <th class="cart-th">Item</th>
+                <th class="cart-th">Cost</th>
+            </tr>
+            <tr class="cart-tr">
+                <td class="cart-td">
+                   Crabs
+                </td>
+                <td class="cart-td">
+                    500$
+                </td>
+            </tr>  
+        </table>
+
+        <p class="cost_cart">
+            All: 500$
+        </p>
+
+        <div class="cart_form">
+            <h3 class="cart_h3">Order</h3>
+            <p class="input_item">Name</p>
+            <input type="name" class="cart_input">
+            <p class="input_item">Surname</p>
+            <input type="surname" class="cart_input">
+            <p class="input_item">E-mail</p>
+            <input type="address" class="cart_input">
+              
+        </div>
+        
+        <form action="payment_page.html">
+            <button class="payment_button">Buy Now</button>
+        </form>
+  
+</div>
+
+
+
+
+   
+    
+    
+</body>
+</html>
